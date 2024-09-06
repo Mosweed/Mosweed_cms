@@ -64,62 +64,62 @@ class InstallCMSCommand extends Command
         $this->info('Publishing the package files...');
 
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-config',
         ]);
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-lang',
         ]);
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-models',
         ]);
 
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-seeders-factories',
         ]);
 
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-Events-and-Listeners-and-Roles-and-Controllers',
         ]);
 
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-public',
         ]);
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-storage',
         ]);
 
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-views',
         ]);
 
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-layouts',
         ]);
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-blocks',
         ]);
 
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-Livewire-components',
         ]);
 
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-Livewire-views',
         ]);
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-components',
         ]);
 
@@ -127,7 +127,7 @@ class InstallCMSCommand extends Command
 
         // File::deleteDirectory(database_path('migrations'));
         $this->call('vendor:publish', [
-            '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+            '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
             '--tag' => 'CMS-database',
         ]);
 
@@ -333,7 +333,7 @@ class InstallCMSCommand extends Command
             }
         } else {
             $this->call('vendor:publish', [
-                '--provider' => "Shazzoo\Shazzoo_cms\CMSServiceProvider",
+                '--provider' => "Mosweed/Mosweed_cms\CMSServiceProvider",
                 '--tag' => 'CMS-errors',
             ]);
         }
