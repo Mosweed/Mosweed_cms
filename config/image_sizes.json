@@ -1,0 +1,34 @@
+{
+    "sizes": [
+        {
+            "width": 1200,
+            "height": 1200,
+            "create_with_crop": true
+        },
+        {
+            "width": 1000,
+            "height": 1000,
+            "create_with_crop": true
+        },
+        {
+            "width": 800,
+            "height": 800,
+            "create_with_crop": true
+        },
+        {
+            "width": 600,
+            "height": 600,
+            "create_with_crop": false
+        },
+        {
+            "width": 400,
+            "height": 400,
+            "create_with_crop": false
+        },
+        {
+            "width": 200,
+            "height": 200,
+            "create_with_crop": false
+        }
+    ]
+}
